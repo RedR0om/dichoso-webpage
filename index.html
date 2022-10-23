@@ -1,74 +1,510 @@
-<html>
-	<head>
-		<!-- title -->
-		<title>
-			Assignment # 1
-		</title>
-		<!--Linking to CSS-->
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ========= CSS FILES =========-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/73c9c8767f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ======= Style Switcher ======= -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skin/color-1.css">
+    <link rel="stylesheet" href="css/skin/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="css/skin/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skin/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skin/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skin/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="css/style-switcher.css">
+    <title>
+      Dichoso - My Webpage
+    </title>
+  </head>
+  <body class="dark">
+    <!-- ======= Main Container Start ======= -->
+    <div class="main-container">
 
-	<body>
-		<!--Assignment title-->
-		<h1>
-			WEAG Machine Problem 1
-		</h1>
-					<!--Division 1 content-->
-		<div id="div1">
-			<h3>
-				About Me
-			</h3>
-			<p>
-				<strong>Kelvin M. Dichoso</strong>
-				<br>
-				<label>Address</label>: BF Homes Sucat Paranaque City
-				<br>
-				<label>Phone Number</label>: 09500743797
-			</p>
+      <!-- ======== Aside Start ======== -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>K</span>elvin</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li><a href="#home" class="active"> <i class="fa fa-home"></i> Home</a></li>
+          <li><a href="#about"> <i class="fa fa-user"></i> About</a></li>
+          <li><a href="#services"> <i class="fa fa-list"></i> Services</a></li>
+          <li><a href="#portfolio"> <i class="fa fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="#contact"> <i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+      </div>
+      <!-- ======== Aside End======== -->
 
-			
-		</div>
-					<!--Division 3 content-->
-		<div id="div3">
-			<h3>
-				My Picture
-			</h3>
-			<a href="css/kelvin.jpg">
-				<img src="css/kelvin.jpg" width="200px" height="250px">
-			</a>
+      <!-- ======== Main Content Start ======== -->
+      <div class="main-content">
+      <!-- ======== Home Section Start ======== -->
+      <section class="home section " id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">
+                Hello, my name is <span class="name"> Kelvin Dichoso </span>
+              </h3>
+              <h3 class="my-profession">
+                I'm a<span class="typing"> Programmer </span>
+              </h3>
+              <p>
+                I am experienced in creating Android apps and Desktop application using Android studio and Visual basic.
+                Currently, I'm learning HTML, CSS and Javascript.
+              </p>
+              <a href="#contact" class="btn hire-me"> Hire Me</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/profile.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== Home Section End ======== -->
+      <!-- ======== About Section Start ======== -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="row"> 
+            <div class="section-title padd-15">
+              <h2> About Me </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <h3>I'm Kelvin Dichoso and<span> Programmer </span></h3>
+                  <p> I am a fourth year college right now taking Bachelor of Science in Information Technology.
+                    As a student of information technology, I can do troubleshooting of computers, make Android apps,
+                    Desktop apps, as well as design a webpage. I am familiar with a variety of coding languages, 
+                    including Python, C#, Java, Visual Basic, and Javascript. I also use HTML and CSS as markup 
+                    and style sheet languages.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="personal-info padd-15">
+                <div class="row">
+                  <div class="info-item padd-15">
+                    <p>Fullname : <span> Kelvin Mata Dichoso</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Gender : <span> Male</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Height : <span> 178cm</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Weight : <span> 60kg</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Nationality : <span> Filipino</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Language : <span> English / Filipino</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Occupation : <span> Student</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Status : <span> Single</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Religion : <span> Catholic</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Address : <span> BF Homes, Paranaque City</span></p>
+                  </div> 
+                  <div class="info-item padd-15">
+                    <p>Contact : <span> 09500743797</span></p>
+                  </div>
+                  <div class="info-item padd-15">
+                    <p>Email : <span> dichoso.kelvin27@gmail.com</span></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="buttons">
+                    <a href="#" class="btn"> View Resume</a>
+                    <a href="#contact" class="btn hire-me"> Hire me</a>
+                  </div>
+                </div>
+                </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>HTML</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 92%;"></div>
+                          <div class="skill-percent">92%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>CSS</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 75%;"></div>
+                          <div class="skill-percent">75%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Javascript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 50%;"></div>
+                          <div class="skill-percent">50%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Python</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 59%;"></div>
+                          <div class="skill-percent">59%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Java</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%;"></div>
+                          <div class="skill-percent">76%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Visual Basic</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%;"></div>
+                          <div class="skill-percent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>c#</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 63%;"></div>
+                          <div class="skill-percent">63%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>    <!--============= EDUCATION SECTION ==================-->
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ============== Timeline item =============-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2006 - 2012
+                              </h3>
+                              <h4 class="timeline-title">Primary Education</h4>
+                              <p class="timeline-text">Bagong Silang Elementary School in Muntinlupa City is where I received my
+                                elementary education. There, I learned the fundamental understanding of education as well as the 
+                                skills, attitudes, and values that would serve as the cornerstones of my personal growth.</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2012 - 2016
+                              </h3>
+                              <h4 class="timeline-title">Secondary Education</h4>
+                              <p class="timeline-text">My secondary education was completed at Muntinlupa Business High School. 
+                                MBHS is quite advanced in terms of education delivery at that age because they offer mini-courses 
+                                in areas like computer hardware services, garments, welding, cooking, and more. 
+                                I attended a welding training there and gained a lot of knowledge.
+                              </p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2016 - 2018
+                              </h3>
+                              <h4 class="timeline-title">Tertiary Education</h4>
+                              <p class="timeline-text">After high school, I attended Taguig City University and enrolled in a 
+                                business administration study there. Unfortunately, I felt that business administration wasn't 
+                                for me, so I decided to drop my study and switch institutions.</p>
+                          </div>
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2019 - Present
+                              </h3>
+                              <h4 class="timeline-title">Tertiary Education</h4>
+                              <p class="timeline-text">I'm a student here at Ama Computer Learning Center right now (ACLC). 
+                                This is where I discovered my passion for programming. I've learned a lot here, and I'm still
+                                learning.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>   <!--============ EXPERIENCE SECTION =============-->
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- ============== Timeline item =============-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i>2022 - Present
+                              </h3>
+                              <h4 class="timeline-title">On-the-job Training <i>(Intern)</i></h4>
+                              <p class="timeline-text">I'm a trainee here at Asia Pacific College right now . I learnt a 
+                                lot while I was here, including computer troubleshooting,  and helping with certain teacher 
+                                and student concerns, and much more.
+                              </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== About Section End ======== -->
+      <!-- ======== Services Section Start ======== -->
+      <section class="service section " id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Services</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--============== Service-item Start ==============-->
+            <div class="service-item padd-15">
+              <div class="service-item-inner ">
+                <div class="icon">
+                  <i class="fa fa-laptop"></i>
+                </div>
+                <h4>Web Design</h4>
+                <p>I'll make a design for your website to help your business grow.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-desktop"></i>
+                </div>
+                <h4>Desktop App</h4>
+                <p>I'll make a software, systems for your business.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-mobile"></i>
+                </div>
+                <h4>Android App</h4>
+                <p>I'll build an Android App to help you with your business or your organization.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-wrench"></i>
+                </div>
+                <h4>PC Troubleshooting</h4>
+                <p>I'll repair and troubleshoot the problems of your computer.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-video-camera"></i>
+                </div>
+                <h4>Video Editing</h4>
+                <p>I'll edit or design a commercial for your business.
+                </p>
+              </div>
+            </div>
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="icon">
+                  <i class="fa fa-print"></i>
+                </div>
+                <h4>Brochure</h4>
+                <p>I'll create you a fantastic brochure to accelerate the growth of your company.
+                </p>
+              </div>
+            </div>
+            <!--============== Service-item End ==============-->
+          </div>
+        </div>
+      </section>
+      <!-- ======== Services Section End ======== -->
+      <!--============== Portfolio Section Start ==============-->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <h2>My Last Projects :</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!--============== Portfolio Item Start ==============-->
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent2.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent3.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent3.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent2.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item padd-15">
+              <div class="portfolio-item-inner shadow-dark">
+                <div class="portfolio-img">
+                  <img src="images/recent.PNG" alt="">
+                </div>
+              </div>
+            </div>
+            <!--============== Portfolio Item End ==============-->
+          </div>
+        </div>
+      </section>
+      <!--============== Portfolio Section End ==============-->
+      <!--============== Contact Section Start ==============-->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+          <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+          <div class="row" id="unique">
+            <!--================ontact Info Item Start ==================-->
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Me On</h4>
+                <p>+639-500-74-3797</p>
+            </div>
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-facebook-square"></i></div>
+                <h4>Facebook</h4>
+                <p>kelvin.dichoso</p>
+            </div>
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>dichoso.kelvin27@gmail.com</p>
+            </div>
+              <!--================== Contact Info Item End ==================-->
+          </div>
+          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <!-- ===================== Contact Form Start===================-->
+          <div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ===================== Contact Form Start===================-->
+        </div>
+      </section>
+      <!--============== Contact Section end ==============-->
+      </div>
+    </div>
+    <!-- ======= Main Container End ======= -->
+    <!-- ===================== Style Switcher Start ==================-->
+    <div class="style-switcher">
+      <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas fa-moon"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+    <!-- ===================== Style Switcher End ==================-->
 
+    <!-- ===================== JS files ==================-->
+    <script src="js/style-switcher.js"></script>
 
-		</div>
-
-					<!--Division 2 content-->
-		<div id="div2">
-			<h3>
-				My Hobbies
-			</h3>
-			<form>
-				<ul>
-					<li>
-						Computer Games
-					</li>
-					<li>
-						Basketball
-					</li>
-					<li>
-						Billiard
-					</li>
-				</ul>
-			</form>
-			
-
-		</div>
-					<!--Division 4 content-->
-		<div id="div4">
-			<h3>
-				My Facebook Page
-			</h3>
-
-			<a href=https://www.facebook.com/kelvin.dichoso target="_blank"> Click here to visit my page. </a>
-		</div>
-		<br><br><br>
-	</body>
-</html>
+  </body>
+</html> 
